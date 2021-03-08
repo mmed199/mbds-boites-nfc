@@ -9,9 +9,9 @@ class ObjectsFragment : Fragment(), ObjectClickListener {
     override fun onCustomerClick(`object`: Object, favoriteId: Int?) {
         Log.v("ObjectsFragment", "Favorite Clicked in Object ")
 
-        if(favoriteId == null)
-            db.addFavorite(Object)
-        else
-            db.deleteFavorite(favoriteId)
+//        if(favoriteId == null)
+//            db.addFavorite(Object)
+//        else
+//            db.deleteFavorite(favoriteId)
     }
 }
