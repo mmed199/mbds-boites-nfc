@@ -28,9 +28,17 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:hint="Nom de l'objet"
-        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contact_form_title"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Description de l'objet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_object"/>
 
     <EditText
         android:id="@+id/quantite"
@@ -38,9 +46,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:hint="Quantité"
-        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_object"/>
+        app:layout_constraintTop_toBottomOf="@+id/description"/>
 
     <Button
         android:id="@+id/btn_ajout"
