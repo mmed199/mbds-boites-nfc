@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Modifier les objets"
+        android:text="Ajouter des objets"
         android:textColor="#ce3232"
         android:textSize="40sp"
         android:typeface="serif"
-        app:layout_constraintBottom_toTopOf="@id/name_object"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/name_object"/>
 
 
     <EditText
@@ -58,9 +58,9 @@
         android:elevation="4dp"
         android:paddingLeft="70dp"
         android:paddingRight="70dp"
-        android:text="MODIFIER"
+        android:text="Ajouter"
         android:textColor="#fff"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/quantite" />
+        app:layout_constraintTop_toBottomOf="@+id/quantite"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
