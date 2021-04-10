@@ -1,22 +1,32 @@
-# nfc
-Ce projet contient plusieurs cas d'utitisation du NFC sur Android. l'objectf principal est de mettre en place la base sur laquelle des étudiants peuvent découvrir le NFC et tester des cas d'utilisation en fonction des besoins définis dans les projets et TPs faits dans le cours.
+# 📦  NFC BOX ( WEB NFC )
+Le concept de notre projet serait de coller des tags sur des boîtes en carton que l’on range dans le grenier. Cette solution permettra de savoir quels sont les objets qui sont dans les boîtes sans avoir à les ouvrir, cela permettra donc un gain de temps considérable.
 
-## Récupérer les sources du projet 
-Forker le projet le projet dans votre espace personnel Github 
 
-## Tester l'aplication
-Dans un premier temps, il faudra tester les fonctionnalités suivantes : 
-1. Lecture de tag
-2. Ecriture de tag
-3. Android BEAM (P2P)
+## 🔥 Team
+Ce projet est développé et maintenu par des étudiants du Master MBD :
+- **MOUSSAOUI Mohammed** 
+- **JALAL Réda**
+- **MAMANE LAWEL Sadio**
+- **MAZYAD Hassan**
 
-## Améliorer le projet 
-Le code du projet n'est pas complet, il faudra modifier les différentes classes en fonction des commentaires qu'elles contiennent. 
-Pour cela, identifiez les TODO pour compléter les différents cas d'utilisation. 
+## 🌐 Links
+Lien vers l'application https://webnfc.herokuapp.com <br>
+Pour tester l'application : <br>
+✔️ Utilisez un télephone Android NFC <br>
+✔️ Utilisez la derniere version du Google Chrome (Chrome 89+) <br>
+✔️ Ouvrez notre application **(toujours en HTTPS)** <br>
+✔️ Activez le NFC sur votre mobile <br>
+✔️ Autorisez l'utilisation du NFC pour notre web app <br>
+✔️ Enjoy 😜 <br>
 
-## Pré Requis
-1. Téléphone Android NFC
-2. 1 ou plusieurs Tags NFC
+## 🍪 Features
+- Créez de votre premier Box sur la page _Ajouter un tag_ 📕
+- Taguez la boite avec le button associer dans la page   _Associer un tag_ ✨
+- Scannez le tag dans la page principale ☝️
+- Modifiez le contenu de la boite 🥰
 
-## Rendu 
-Chaque modification doit faire l'objet d'un commit dans vos projets respectifs. Le repo final devra être rendu selon les conditions qui vous seront communiquées pendant le cours.
+## 🏠 LocalHost
+- Ouvrez le dossier _/app-nfc-box_ avec [visual studio code](https://code.visualstudio.com/)
+- Installez le plugin [_Live server_ ](https://ritwickdey.github.io/vscode-live-server/)
+- Dans le fichier _/app-nfc-box/.vscode/.settings_ changez les deux chemin vers les deux fichiers localhost.pem et localhost.key
+- Lancez le _live server_
