@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+      "enable": true,
+      // CHANGE WITH THE FULL PATH TO THE FILE
+      "cert": "C:/Users/mbds/Desktop/cours/NFC/MBDS Boites/web-nfc/localhost.pem",
+      "key": "C:/Users/mbds/Desktop/cours/NFC/MBDS Boites/web-nfc/localhost.key",
+      "passphrase": "Moussaoui1998"
+    }
+  }

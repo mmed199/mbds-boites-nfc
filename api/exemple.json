@@ -1,0 +1,22 @@
+{
+    "libelle" : "Boite de maquillage",
+    "description" : "Ma boite des anciens produits de maquillage",
+    "poid" : 3,
+    "dimensions" : {
+        "longueur" : 16,
+        "largeur" : 13,
+        "hauteur" : 8
+    },
+    "contenu" : [
+        {
+            "libelle" : "Tartelette Juicy Amazonian Clayé",
+            "type" : "Palette De Fards À Paupières",
+            "quantite" : 2
+        },
+                {
+            "libelle" : "Shape Tape Contour Concealer",
+            "type" : "Anticernes Matte",
+            "quantite" : 3
+        }
+    ] 
+}

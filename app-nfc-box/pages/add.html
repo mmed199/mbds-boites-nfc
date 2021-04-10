@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            NFC BOITES 
+        </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
+        <link href="../src/css/commun.css" rel="stylesheet"/>
+        <link href="../src/css/add.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="nav">
+            <div>
+                <div id="logo">
+                    <img src="../src/img/logo.png">
+                </div>
+            </div>
+            <div class="drop-menu">
+                <i class="fas fa-bars" id="openbtn"></i>
+            </div>
+        </div>
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="closebtn">&times;</a>
+            <a href="/">Accueil</a>
+            <a href="" id="associernav">Associer un tag</a>
+            <a href="" id="ajouternav">Ajouter un tag</a>
+        </div>
+
+
+        <div class="container">
+            <div class="error" id="boite-error"></div>
+            <div class="input-group">
+                <label for="libelle">
+                    Libellé de la boite <span class="required">*</span>  :
+                </label>    
+                <input type="text" class="full" name="libelle" id="libelle"  autocapitalize="off" autofocus="autofocus" placeholder="La boite à merveille" aria-required="true">
+            </div>
+            <div class="input-group">
+                <label for="description">
+                    Déscription <span class="required">*</span> : 
+                </label>
+                <textarea name="description" id="description" class="full" rows="6" placeholder="Une petite déscription ici ..."></textarea>
+            </div>
+            <div class="input-group">
+                <label>
+                    Dimensions <span class="info">(en cm) </span> <span class="required">*</span> :
+                </label>
+                <div class="ligne">
+                    <label for="longueur">Longueur : </label>   
+                    <div><input type="number" name="longueur" id="longueur" placeholder="22"></div>
+
+                    <label for="largeur">Largeur :</label>   
+                    <div><input type="number" name="largeur" id="largeur" placeholder="10"></div>
+
+                    <label for="hauteur">Hauteur :</label>   
+                    <div><input type="number" name="hauteur" id="hauteur" placeholder="6"></div>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="poids">
+                    Poids <span class="info">(en Kg) </span> <span class="required">*</span> :
+                </label>    
+                <input type="number" class="full" name="poids" id="poids" autocapitalize="off" autofocus="autofocus" placeholder="3" aria-required="true">
+            </div>
+
+            <div class="input-group">
+                <label>
+                    Contenu :
+                </label>
+
+                <div class="contenu-form">
+                    <div class="input-group">
+                        <div class="error" id="contenu-error"></div>
+                        <label for="libelle-c">Libellé :</label>
+                        <input type="text" name="libelle-c" id="libelle-c" class="full" placeholder="Le super objet">
+                    </div>
+
+                    <label for="quantite">Quantité :</label>   
+                    <div class="quantite-ligne">
+                        <input type="number" name="quantite" id="quantite" placeholder="3" min="0">
+                        <span id="add-objet" class="btn"><i class="fas fa-plus"></i> </span>
+                    </div>
+                </div>  
+            </div>
+            
+            <div id="added-contenu"></div>
+
+            <span class="btn" id="add-box">Ajouter</span>
+        </div>
+        
+        <script  src="../src/js/commun.js" type="module"></script>
+        <script  src="../src/js/add.js" type="module"></script>
+    </body>
+</html>

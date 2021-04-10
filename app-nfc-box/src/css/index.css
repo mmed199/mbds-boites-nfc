@@ -1,0 +1,139 @@
+@import 'commun.css';
+
+.button {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    font-size: 2.5em;
+    height: 2.5em;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+#scanButton {
+    background-color: rgb(241, 241, 241);
+    color: #79589F;
+    border: 0.1em dashed #79589F;
+    height: 70%;
+    font-size: 3em;
+    flex-direction: column;
+}
+
+#scanButton div {
+    padding: 0em 0.4em;
+}
+
+#error {
+    /* changed by javascript */
+    display: none;
+    background-color: #fdf6f6;
+    color: #c20707;
+    border: 0.1em solid #de7575;
+    height: 70%;
+    font-size: 3em;
+    border-radius: 0.4em;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.4em;
+}
+
+#associateTag {
+    text-decoration: none;
+    background-color: #79589F;
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#addTag {
+    text-decoration: none;
+    border: 0.1em solid #79589F;
+    color: #79589F;
+    display: flex;
+}
+
+#addTag:hover {
+    background-color:  #79589F;
+    color: white;
+}
+
+#boite-info {
+    display: none;
+    background-image: linear-gradient(0deg, #fff 0%, #FCFCFC  100%);
+    border: 1px solid #E3E7EF;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.boite-header {
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.boite-title {
+    color: #79589F;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 2em;
+    margin-right: 0.2em;
+}
+
+.boite-dimensions {
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    color: #96A3B6;
+    display: flex;
+    align-items: center;
+}
+
+.boite-dimensions>div:first-of-type,  .boite-dimensions>div:nth-of-type(3){
+    margin-left: 0.6em;
+    margin-right: 0.3em;
+    margin-bottom: 0.25em;
+}
+
+.boite-desc {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #575757;
+}
+
+.contenu-ligne {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    border-bottom: 1px solid #E3E7EF;
+}
+
+.contenu-ligne>div:last-of-type {
+    margin-left: auto;
+    font-size: 1.5em;
+    margin-right: 0.2em;
+    font-weight: bold;
+}
+
+.contenu-ligne>div:first-of-type{
+    font-size: 2em;
+}
+
+#btnmodifier {
+    background-color: #79589F;
+    color: rgb(255, 255, 255);
+    width: 50%  !important;
+    height: 2em !important;
+}
+
+#boite-info>div:last-of-type {
+    margin-top: 3em;
+}
