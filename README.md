@@ -5,9 +5,6 @@ Le concept de notre projet serait de coller des tags sur des boîtes en carton q
 ## 🔥 Team
 Ce projet est développé et maintenu par des étudiants du Master MBDS :
 - **MOUSSAOUI Mohammed** 
-- **JALAL Réda**
-- **MAMANE LAWEL Sadio**
-- **MAZYAD Hassan**
 
 ## 🌐 Links
 Lien vers l'application https://webnfc.herokuapp.com <br>
