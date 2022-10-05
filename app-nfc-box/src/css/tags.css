@@ -17,7 +17,7 @@
 }
 
 .boite-title {
-    color: #79589F;
+    color: #E17C00;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
@@ -34,7 +34,7 @@
 }
 
 .associer {
-    background: #79589F;
+    background: #E17C00;
     display: inline-block;
     font-size: 1.4em;
     line-height: 1.5em;
@@ -45,12 +45,12 @@
     vertical-align: middle;
     margin-right: 0.5em;
     cursor: pointer;
-    border: 0.1em solid #79589F;
+    border: 0.1em solid #E17C00;
 }
 
 .modifier {
-    border: 0.1em solid #79589F;
-    color: #79589F;
+    border: 0.1em solid #E17C00;
+    color: #E17C00;
     display: inline-block;
     font-size: 1.4em;
     line-height: 1.5em;

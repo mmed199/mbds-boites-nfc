@@ -17,8 +17,8 @@
 
 #scanButton {
     background-color: rgb(241, 241, 241);
-    color: #79589F;
-    border: 0.1em dashed #79589F;
+    color: #E17C00;
+    border: 0.1em dashed #E17C00;
     height: 70%;
     font-size: 3em;
     flex-direction: column;
@@ -46,20 +46,20 @@
 
 #associateTag {
     text-decoration: none;
-    background-color: #79589F;
+    background-color: #E17C00;
     color: rgb(255, 255, 255);
     display: flex;
 }
 
 #addTag {
     text-decoration: none;
-    border: 0.1em solid #79589F;
-    color: #79589F;
+    border: 0.1em solid #E17C00;
+    color: #E17C00;
     display: flex;
 }
 
 #addTag:hover {
-    background-color:  #79589F;
+    background-color:  #E17C00;
     color: white;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .boite-title {
-    color: #79589F;
+    color: #E17C00;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
@@ -128,7 +128,7 @@
 }
 
 #btnmodifier {
-    background-color: #79589F;
+    background-color: #E17C00;
     color: rgb(255, 255, 255);
     width: 50%  !important;
     height: 2em !important;

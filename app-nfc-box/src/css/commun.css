@@ -9,6 +9,7 @@
 }
 
 body {
+    user-select: none;
     margin: 0px;
     font-family: "BentonSansBook", sans-serif;
     color: rgb(25, 30, 41);
@@ -37,7 +38,7 @@ html, body {
 
 
 .nav {
-    background-color: #79589F;
+    background-color: #E17C00;
     display: flex;
     align-items: center;
     box-shadow: 0 3px 20px rgb(0 0 0 / 30%);
@@ -70,7 +71,7 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #79589F80;
+    background-color: #E17C0080;
     z-index: 2;
     cursor: pointer;
 }

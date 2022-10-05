@@ -1,7 +1,5 @@
 import { conf } from "./conf.js"
 
-document.getElementById('associateTag').href = conf.urls.LIST
-document.getElementById('addTag').href = conf.urls.ADD
 
 let id = 0;
 
@@ -12,19 +10,22 @@ let overlay = document.getElementById("overlay")
 
 async function scanner() { 
     try {
+        // 2 - calling NDEFReader scan will ask for the auth
         const ndef = new NDEFReader();
         await ndef.scan();
     
+        // 3 - reading error
         ndef.addEventListener("readingerror", () => {
             showError(conf.messages.READING_ERROR)
         });
     
+        // 4 - listen to scan
         ndef.addEventListener("reading", ({ message, serialNumber }) => {
             for (const record of message.records) {
-                
                 if(record.recordType == "text") {
                     const textDecoder = new TextDecoder(record.encoding)
-                    searchBox(textDecoder.decode(record.data))
+                    const text = textDecoder.decode(record.data)
+                    searchBox(text)
                 }
             }
         });
@@ -80,19 +81,24 @@ function searchBox(id) {
 
 
 window.onload = function() {
+    // 1 - Check that the NDEFReader interface exists
+    // does not tell you if the hardware is present
+    // only available to top-level frames and secure browsing contexts (HTTPS only)
     if ('NDEFReader' in window) {
         navigator.permissions.query({ name: 'nfc'}).then(result => {
             if (result.state === 'granted') {
+                scanButton.innerHTML = "Scanning ..."
                 scanner() 
             } else {
-                document.getElementById("scanButtonText").innerHTML = conf.messages.FIRST_TIME
+                document.getElementById("scanButtonText").innerHTML = conf.messages.FIRST_TIME;
+
                 scanButton.addEventListener("click", () => {
                     scanner()
                 })
             }
         })
     } else {
-        showError(conf.messages.NOT_SUPPORTED )
+        showError(conf.messages.NOT_SUPPORTED)
     }
 
 }

@@ -76,7 +76,7 @@ if(id) {
             window.location.replace(conf.urls.LIST)
         })
     
-    document.getElementById("add-box").innerText = "Modifier"
+    document.getElementById("add-box").innerText = "Edit"
     document.getElementById("add-box").addEventListener("click", (e) => {
         fetch(conf.api + "boites", {
             method: 'PUT',
@@ -87,7 +87,7 @@ if(id) {
             body: JSON.stringify(boite)
           }).then(res => {
               console.log(res)
-              window.location.replace(conf.urls.LIST);
+              window.location.replace("/pages/tags.html");
           })
     })
 
