@@ -62,15 +62,15 @@ let config = {
     },
 
     messages: {
-        NONE : "Aucune boite trouvée! Essayez une autre boite",
-        FIRST_TIME : "Cliquez ici, Autorisez NFC pour ce site, puis Scannez votre boite!",
-        NOT_SUPPORTED : "Cette appareil ne supporte pas Web NFC, utilisez le navigateur Chrome sur un mobile",
-        READING_ERROR : "Erreur de lecture! veuillez activer le NFC, et l'autoriser pour notre site",
+        NONE : "No box found! Try another one",
+        FIRST_TIME : "Click here, Authorize NFC for this site, then Scan your box!",
+        NOT_SUPPORTED : "This device does not support Web NFC, use the Chrome browser on a mobile",
+        READING_ERROR : "Reading error! Please enable NFC, and allow it for our site",
     },
 
     addErrors : {
-        CONENT : "Veuillez remplir les deux champs requis.",
-        BOX : "Veuillez remplir tous les champs requis."
+        CONENT : "Please fill in the two required fields.",
+        BOX : "Please fill in all required fields."
     },
     urlsHTML : {
         INDEX : "/",

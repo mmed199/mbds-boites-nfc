@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            NFC BOITES 
+            DevoxxBox 
         </title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.1/css/all.css" type="text/css" />
         <link href="./src/css/index.css" rel="stylesheet"/>
@@ -10,19 +10,19 @@
         <div class="nav">
             <div>
                 <div id="logo">
-                    <img src="../src/img/logo.png">
+                    DevoxxBox
                 </div>
             </div>
         </div>
         <div class="container">
-            <a  id="associateTag" class="noselect button" href="">Associer un tag</a>
-            <a  id="addTag" class="noselect button" href="">Ajouter un tag</a>
+            <a  id="associateTag" class="noselect button" href="">Associate a box</a>
+            <a  id="addTag" class="noselect button" href="">New box</a>
             <span id="scanButton" class="noselect button">
                 <div><img src="https://img.icons8.com/ios/200/79589F/nfc-round-tag.png"/></div>
-                <div id="scanButtonText">Scannez la boite</div>
+                <div id="scanButtonText">Scan the box</div>
             </span>
             <div id="error" class="noselect">
-                Cette appareil ne supporte pas Web NFC, utilisez le navigateur Chrome sur un mobile
+                This device does not support Web NFC.
             </div>
             <div id="boite-info">
                 
@@ -30,7 +30,7 @@
         </div>
 
         <div id="overlay">
-            <div id="overlay-text">Entrain de chercher la boite, c'est le bazar ici!</div>
+            <div id="overlay-text">Searching ...</div>
         </div>
         <script src="./src/js/index.js" type="module"></script>
     </body>

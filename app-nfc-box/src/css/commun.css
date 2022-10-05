@@ -120,4 +120,8 @@ html, body {
 
 #logo {
     cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
 }

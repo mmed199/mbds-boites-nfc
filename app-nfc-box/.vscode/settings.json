@@ -5,8 +5,8 @@
     "liveServer.settings.https": {
       "enable": true,
       // CHANGE WITH THE FULL PATH TO THE FILE
-      "cert": "the/full/path/to/localhost.pem",
-      "key": "the/full/path/to/localhost.key",
+      "cert": "C:/Users/mmoussaoui/Desktop/moussaoui/mbds-boites-nfc/app-nfc-box/localhost.pem",
+      "key": "C:/Users/mmoussaoui/Desktop/moussaoui/mbds-boites-nfc/app-nfc-box/localhost.key",
       "passphrase": "Moussaoui1998"
     }
   }
